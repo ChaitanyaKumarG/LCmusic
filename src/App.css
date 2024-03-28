@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+.x-scroller{
+  overflow-x: scroll; 
+  overflow-y:hidden; 
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.zindex{
+  z-index: 1;
+}
+.dark{
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+.light{
+  background-color: white;
+  color: black;
+  height: 100vh;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bg-dark{
+  background-image: url(https://wallpapercave.com/dwp1x/wp7293879.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.fontStyle{
+  font-family: 'Courier New', Courier, monospace;
+}
+audio::-webkit-media-control-panel {
+  background-color: #282c34;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
