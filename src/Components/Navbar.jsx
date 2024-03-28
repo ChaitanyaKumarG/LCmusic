@@ -35,14 +35,14 @@ const [notications, setnotifications] = useState(false)
 
  <h2 className='me-3'>
 
- CT-MUZICC
+ LCmusic
  </h2>
 
 
  <Offcanvas show={displaycanvas} onHide={()=>setdisplaycanvas(false)} placement='end' className='App'> 
 
 <OffcanvasHeader closeButton>
- <h3>CT-MUSIC</h3> </OffcanvasHeader>  
+ <h3>LCmusic</h3> </OffcanvasHeader>  
 
 <OffcanvasBody>
 
